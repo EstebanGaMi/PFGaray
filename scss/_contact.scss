@@ -1,0 +1,99 @@
+.contact {
+  padding-bottom: 130px;
+}
+.contact .info {
+  padding: 30px;
+  background: $color-white;
+  width: 100%;
+}
+.contact .info i {
+  font-size: 20px;
+  color: $color-bordo;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: $color-rose;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+}
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: $color-bordoDark;
+}
+.contact .info .email p {
+  padding-top: 5px;
+}
+.contact .info .social-links {
+  padding-left: 60px;
+}
+.contact .info .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: $color-white;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+.contact .info .social-links a:hover {
+  background: $color-bordo;
+  color: $color-white;
+}
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: $color-bordo;
+  color: $color-white;
+}
+.contact .email-form {
+  width: 100%;
+  padding: 30px;
+  background: $color-white;
+}
+.contact .email-form .form-group {
+  margin-bottom: 15px;
+}
+.contact .email-form label {
+  padding-bottom: 8px;
+}
+.contact .email-form input,
+.contact .email-form textarea {
+  border-radius: 0;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.281);
+
+  font-size: 14px;
+}
+.contact .email-form input {
+  height: 44px;
+}
+.contact .email-form textarea {
+  padding: 10px 15px;
+}
+.contact .email-form button[type=submit] {
+  background: $color-bordo;
+  border: 0;
+  padding: 10px 24px;
+  color: $color-white;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+.contact .email-form button[type=submit]:hover {
+  background: $color-bordo;
+}
