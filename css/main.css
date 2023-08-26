@@ -97,17 +97,6 @@ section {
   color: #173b6c;
 }
 
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #a42841;
-  bottom: 0;
-  left: 0;
-}
-
 .section-title p {
   margin-bottom: 0;
 }
@@ -230,33 +219,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
-  color: #d13453;
-}
-
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
-}
-
-.portfolio .portfolio-wrap {
-  transition: 0.3s;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.portfolio .portfolio-wrap::before {
-  content: "";
-  background: rgba(255, 255, 255, 0.5);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transition: all ease-in-out 0.3s;
-  z-index: 2;
-  opacity: 0;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
@@ -271,14 +235,9 @@ section {
   justify-content: center;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.portfolio .portfolio-wrap:hover {
+  filter: invert(40%);
   cursor: pointer;
-  opacity: 1;
-}
-
-.portfolio .portfolio-wrap:hover .portfolio-links {
-  opacity: 1;
-  bottom: 0;
 }
 
 .skills .progress {
@@ -475,11 +434,6 @@ section {
     padding-right: 20px 15px;
   }
 }
-body {
-  font-family: "Open Sans", sans-serif;
-  color: #272829;
-}
-
 a {
   color: #d13453;
   text-decoration: none;
