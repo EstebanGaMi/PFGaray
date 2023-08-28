@@ -240,6 +240,10 @@ section {
   cursor: pointer;
 }
 
+.certificate {
+  width: 200px;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
